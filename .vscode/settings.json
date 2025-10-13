@@ -1,0 +1,32 @@
+{
+  // Cucumber Autocomplete Settings
+  "cucumberautocomplete.steps": [
+    "features/step_definations/*.js"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  // JavaScript & TypeScript IntelliSense
+  "javascript.implicitProjectConfig.checkJs": true,
+  // Editor Suggestions & Formatting
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.formatOnSave": true,
+  // JavaScript Auto Imports
+  "javascript.suggest.autoImports": true,
+  // Playwright Debugging & Test Explorer
+  "playwright.env": {
+    "DEBUG": "pw:api"
+  },
+  "playwright.testExplorer.enabled": true,
+  // ESLint Integration
+  "eslint.validate": [
+    "javascript"
+  ],
+  // Terminal Profile Preference
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

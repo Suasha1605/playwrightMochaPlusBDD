@@ -1,0 +1,2 @@
+Type: prompt
+Dailog text: Please enter your name:

@@ -1,0 +1,281 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Dell\\Dev\\playwrightautomation\\playwright.config3.js",
+    "rootDir": "C:/Users/Dell/Dev/playwrightautomation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Dell/Dev/playwrightautomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Dell/Dev/playwrightautomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "RahulShetty\\practice.spec.js",
+      "file": "RahulShetty/practice.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "session 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4568,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "OrangeHRM\n"
+                    },
+                    {
+                      "text": "OrangeHRM\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-13T05:20:22.097Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "234dc7e4e4c70bba26f2-3dc9861ec7da346243ed",
+          "file": "RahulShetty/practice.spec.js",
+          "line": 34,
+          "column": 1
+        }
+      ],
+      "suites": [
+        {
+          "title": "Playwright browser actions",
+          "file": "RahulShetty/practice.spec.js",
+          "line": 46,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Window handle",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 4330,
+                      "error": {
+                        "message": "Error: page.title: Execution context was destroyed, most likely because of a navigation",
+                        "stack": "Error: page.title: Execution context was destroyed, most likely because of a navigation\n    at C:\\Users\\Dell\\Dev\\playwrightautomation\\tests\\RahulShetty\\practice.spec.js:59:54",
+                        "location": {
+                          "file": "C:\\Users\\Dell\\Dev\\playwrightautomation\\tests\\RahulShetty\\practice.spec.js",
+                          "column": 54,
+                          "line": 59
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 57 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m newTab\u001b[33m.\u001b[39mclick()])\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"New tab title: \"\u001b[39m\u001b[33m,\u001b[39m \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mtitle())\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m\n \u001b[90m 62 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Dell\\Dev\\playwrightautomation\\tests\\RahulShetty\\practice.spec.js",
+                            "column": 54,
+                            "line": 59
+                          },
+                          "message": "Error: page.title: Execution context was destroyed, most likely because of a navigation\n\n\u001b[0m \u001b[90m 57 |\u001b[39m         \u001b[36mconst\u001b[39m [newPage] \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m.\u001b[39mall([context\u001b[33m.\u001b[39mwaitForEvent(\u001b[32m'page'\u001b[39m)\u001b[33m,\u001b[39m newTab\u001b[33m.\u001b[39mclick()])\u001b[33m;\u001b[39m\n \u001b[90m 58 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m         console\u001b[33m.\u001b[39mlog(\u001b[32m\"New tab title: \"\u001b[39m\u001b[33m,\u001b[39m \u001b[36mawait\u001b[39m newPage\u001b[33m.\u001b[39mtitle())\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m\n \u001b[90m 62 |\u001b[39m     })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Dell\\Dev\\playwrightautomation\\tests\\RahulShetty\\practice.spec.js:59:54\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-13T05:20:35.680Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Dell\\Dev\\playwrightautomation\\test-results\\RahulShetty-practice-Playw-22c6b-owser-actions-Window-handle-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Dell\\Dev\\playwrightautomation\\tests\\RahulShetty\\practice.spec.js",
+                        "column": 54,
+                        "line": 59
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "234dc7e4e4c70bba26f2-6a8477b25ad4061b5132",
+              "file": "RahulShetty/practice.spec.js",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "Dailog Handling",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7903,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "OrangeHRM\n"
+                        },
+                        {
+                          "text": "Type: prompt\n"
+                        },
+                        {
+                          "text": "Dailog text: Please enter your name:\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-13T05:20:22.097Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "234dc7e4e4c70bba26f2-937d79031b98287839c2",
+              "file": "RahulShetty/practice.spec.js",
+              "line": 65,
+              "column": 5
+            },
+            {
+              "title": "Popup Window Handling",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 5946,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Title: Selenium\n"
+                        },
+                        {
+                          "text": "Title: Fast and reliable end-to-end testing for modern web apps | Playwright\n"
+                        },
+                        {
+                          "text": "titleName [\n  \u001b[32m'\\nHome\\n'\u001b[39m,\n  \u001b[32m'\\nUdemy Courses\\n'\u001b[39m,\n  \u001b[32m'\\nOnline Trainings\\n'\u001b[39m,\n  \u001b[32m'\\nBlog\\n'\u001b[39m,\n  \u001b[32m'\\nPlaywrightPractice\\n'\u001b[39m\n]\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-13T05:20:40.708Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "234dc7e4e4c70bba26f2-d0c9b8fa09bc1b2c0304",
+              "file": "RahulShetty/practice.spec.js",
+              "line": 87,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-13T05:20:20.981Z",
+    "duration": 26166.11,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

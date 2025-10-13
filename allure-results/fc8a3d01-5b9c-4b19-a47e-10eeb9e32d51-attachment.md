@@ -1,0 +1,464 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Rediff.com logo" [ref=e6] [cursor=pointer]:
+      - /url: https://www.rediff.com
+      - img "Rediff.com logo" [ref=e7] [cursor=pointer]
+    - generic [ref=e8]:
+      - link "Rediffmail" [ref=e9] [cursor=pointer]:
+        - /url: https://mail.rediff.com/cgi-bin/login.cgi
+      - link "Money" [ref=e10] [cursor=pointer]:
+        - /url: https://money.rediff.com/
+      - link "Enterprise Email" [ref=e11] [cursor=pointer]:
+        - /url: https://workmail.rediff.com/
+      - link "Business Email" [ref=e12] [cursor=pointer]:
+        - /url: https://businessemail.rediff.com/
+      - link "rediffGURUS" [ref=e13] [cursor=pointer]:
+        - /url: https://gurus.rediff.com/
+      - link "rediff-TV New" [ref=e14] [cursor=pointer]:
+        - /url: https://tv.rediff.com?utm_source=rediff_home_icon&utm_medium=pc&utm_campaign=redifftv&utm_content=redifftv_rediff_home_icon_pc
+  - generic [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: Advertisement
+        - insertion [ref=e21]:
+          - iframe [ref=e22]:
+            - table [ref=f1e3]:
+              - rowgroup [ref=f1e4]:
+                - row "EUREKA FORBES. Aquaguard. Instant Hot Water Purifier Now with 2 Year Filter Life. INDIA'S No. 1 Water Purifier. ASPIRE BLAZE. UP TO Rs. 11,500 OFF*" [ref=f1e5]:
+                  - cell "EUREKA FORBES. Aquaguard. Instant Hot Water Purifier Now with 2 Year Filter Life. INDIA'S No. 1 Water Purifier. ASPIRE BLAZE. UP TO Rs. 11,500 OFF*" [ref=f1e6]:
+                    - paragraph [ref=f1e7]:
+                      - img "EUREKA FORBES. Aquaguard. Instant Hot Water Purifier Now with 2 Year Filter Life. INDIA'S No. 1 Water Purifier. ASPIRE BLAZE. UP TO Rs. 11,500 OFF*" [ref=f1e8]
+                - 'row "Yes, I am interested: Name Mobile Address City Pincode Book a Free Demo By submitting my details I hereby authorize Eureka Forbes or its representatives to contact me by email, phone or SMS overriding my registry on DNCR." [ref=f1e9]':
+                  - 'cell "Yes, I am interested: Name Mobile Address City Pincode Book a Free Demo By submitting my details I hereby authorize Eureka Forbes or its representatives to contact me by email, phone or SMS overriding my registry on DNCR." [ref=f1e10]':
+                    - generic [ref=f1e11]:
+                      - generic [ref=f1e12]: "Yes, I am interested:"
+                      - generic [ref=f1e13]:
+                        - textbox [ref=f1e14]: Name
+                        - textbox [ref=f1e15]: Mobile
+                        - textbox [ref=f1e16]: Address
+                        - textbox [ref=f1e17]: City
+                        - textbox [ref=f1e18]: Pincode
+                        - button "Book a Free Demo" [ref=f1e19] [cursor=pointer]
+                      - paragraph [ref=f1e21]: By submitting my details I hereby authorize Eureka Forbes or its representatives to contact me by email, phone or SMS overriding my registry on DNCR.
+                - row "*T&C apply. Offer is applicable through direct sales specialist via home demo." [ref=f1e22]:
+                  - cell "*T&C apply. Offer is applicable through direct sales specialist via home demo." [ref=f1e23]:
+                    - paragraph [ref=f1e24]: "*T&C apply. Offer is applicable through direct sales specialist via home demo."
+      - generic [ref=e23]:
+        - heading "Sign in" [level=2] [ref=e25]
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: "Rediffmail ID :"
+            - generic [ref=e30]:
+              - textbox [ref=e31]
+              - generic [ref=e32]: "@rediffmail.com"
+          - generic [ref=e33]:
+            - generic [ref=e34]: "Password :"
+            - generic [ref=e35]:
+              - textbox [ref=e36]
+              - generic [ref=e37] [cursor=pointer]: 👁︎
+          - link "Forgot password?" [ref=e40] [cursor=pointer]:
+            - /url: https://register.rediff.com/utilities/newforgot/index.php?FormName=showlogin
+          - generic [ref=e41]:
+            - checkbox "Remember my email ID on this computer" [checked] [ref=e42]
+            - generic [ref=e43]: Remember my email ID on this computer
+          - button "Log In" [ref=e44] [cursor=pointer]
+        - paragraph [ref=e46]:
+          - text: New User?
+          - link "Get a new Rediffmail ID" [ref=e47] [cursor=pointer]:
+            - /url: //register.rediff.com/register/register.php?FormName=user_details
+    - generic [ref=e48]:
+      - list [ref=e49]:
+        - listitem [ref=e50]:
+          - link [ref=e51] [cursor=pointer]:
+            - /url: https://www.rediff.com/business/report/ipo-wave-hits-3-decade-peak-with-200-filings/20251013.htm
+            - img [ref=e52] [cursor=pointer]
+        - listitem [ref=e53]:
+          - link "IPO Wave Hits 3 Decade Peak With 200 Filings" [ref=e54] [cursor=pointer]:
+            - /url: https://www.rediff.com/business/report/ipo-wave-hits-3-decade-peak-with-200-filings/20251013.htm
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - link [ref=e57] [cursor=pointer]:
+            - /url: https://www.rediff.com/news/report/war-is-over-in-gaza-trump-as-israel-hamas-free-captives/20251013.htm
+            - img [ref=e58] [cursor=pointer]
+        - listitem [ref=e59]:
+          - 'link "''War is over in Gaza'': Trump as Israel, Hamas free captives" [ref=e60] [cursor=pointer]':
+            - /url: https://www.rediff.com/news/report/war-is-over-in-gaza-trump-as-israel-hamas-free-captives/20251013.htm
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: https://www.rediff.com/news/report/man-forced-to-wash-brahmins-feet-drink-same-water-over-ai-image/20251013.htm
+            - img [ref=e64] [cursor=pointer]
+        - listitem [ref=e65]:
+          - link "Man forced to wash Brahmin's feet, drink same water over AI image" [ref=e66] [cursor=pointer]:
+            - /url: https://www.rediff.com/news/report/man-forced-to-wash-brahmins-feet-drink-same-water-over-ai-image/20251013.htm
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - link [ref=e69] [cursor=pointer]:
+            - /url: https://www.rediff.com/movies/report/7-reasons-to-watch-out-for-avneet-kaur/20251013.htm
+            - img [ref=e70] [cursor=pointer]
+        - listitem [ref=e71]:
+          - link "7 Reasons To Watch Out For Avneet Kaur" [ref=e72] [cursor=pointer]:
+            - /url: https://www.rediff.com/movies/report/7-reasons-to-watch-out-for-avneet-kaur/20251013.htm
+      - list [ref=e73]:
+        - listitem [ref=e74]:
+          - link [ref=e75] [cursor=pointer]:
+            - /url: https://www.rediff.com/news/column/m-k-bhadrakumar-afghans-are-adept-at-playing-india-against-pakistan/20251013.htm
+            - img [ref=e76] [cursor=pointer]
+        - listitem [ref=e77]:
+          - link "Afghans Are Adept At Playing India Against Pakistan" [ref=e78] [cursor=pointer]:
+            - /url: https://www.rediff.com/news/column/m-k-bhadrakumar-afghans-are-adept-at-playing-india-against-pakistan/20251013.htm
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - link [ref=e81] [cursor=pointer]:
+            - /url: https://www.rediff.com/business/special/urgent-need-for-data-sovereignty/20251013.htm
+            - img [ref=e82] [cursor=pointer]
+        - listitem [ref=e83]:
+          - link "Urgent Need For Data Sovereignty" [ref=e84] [cursor=pointer]:
+            - /url: https://www.rediff.com/business/special/urgent-need-for-data-sovereignty/20251013.htm
+      - list [ref=e85]:
+        - listitem [ref=e86]:
+          - link [ref=e87] [cursor=pointer]:
+            - /url: https://www.rediff.com/getahead/slide-show/slide-show-1-10-libraries-in-india-you-must-visit/20251013.htm
+            - img [ref=e88] [cursor=pointer]
+        - listitem [ref=e89]:
+          - link "10 Libraries In India You Must Visit" [ref=e90] [cursor=pointer]:
+            - /url: https://www.rediff.com/getahead/slide-show/slide-show-1-10-libraries-in-india-you-must-visit/20251013.htm
+      - list [ref=e91]:
+        - listitem [ref=e92]:
+          - link [ref=e93] [cursor=pointer]:
+            - /url: https://www.rediff.com/business/column/nivedita-mookerji-will-tata-sons-go-public/20251013.htm
+            - img [ref=e94] [cursor=pointer]
+        - listitem [ref=e95]:
+          - link "Will Tata Sons Go Public?" [ref=e96] [cursor=pointer]:
+            - /url: https://www.rediff.com/business/column/nivedita-mookerji-will-tata-sons-go-public/20251013.htm
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "sports" [level=4] [ref=e101]:
+              - link "sports" [ref=e102] [cursor=pointer]:
+                - /url: https://www.rediff.com/sports
+            - 'heading "WC Qualifiers: Denmark stay unbeaten; Netherlands ease to victory" [level=5] [ref=e103]':
+              - 'link "WC Qualifiers: Denmark stay unbeaten; Netherlands ease to victory" [ref=e104] [cursor=pointer]':
+                - /url: https://www.rediff.com/sports/report/wc-qualifiers-denmark-stay-unbeaten-netherlands-ease-to-victory/20251013.htm
+                - 'img "WC Qualifiers: Denmark stay unbeaten; Netherlands ease to victory" [ref=e105] [cursor=pointer]'
+            - 'heading "WC Qualifiers: Denmark stay unbeaten; Netherlands ease to victory" [level=2] [ref=e106]':
+              - 'link "WC Qualifiers: Denmark stay unbeaten; Netherlands ease to victory" [ref=e107] [cursor=pointer]':
+                - /url: https://www.rediff.com/sports/report/wc-qualifiers-denmark-stay-unbeaten-netherlands-ease-to-victory/20251013.htm
+            - paragraph [ref=e108]:
+              - link "More sports stories >" [ref=e109] [cursor=pointer]:
+                - /url: https://www.rediff.com/sports
+          - generic [ref=e110]:
+            - heading "news" [level=4] [ref=e111]:
+              - link "news" [ref=e112] [cursor=pointer]:
+                - /url: https://www.rediff.com/news
+            - 'heading "''How Did She Come Out At 12.30 At Night?'': Mamata''s Shocker" [level=5] [ref=e113]':
+              - 'link "''How Did She Come Out At 12.30 At Night?'': Mamata''s Shocker" [ref=e114] [cursor=pointer]':
+                - /url: https://www.rediff.com/news/report/how-did-she-come-out-at-1230-at-night-mamatas-shocker-after-gang-rape/20251013.htm
+                - 'img "''How Did She Come Out At 12.30 At Night?'': Mamata''s Shocker" [ref=e115] [cursor=pointer]'
+            - 'heading "''How Did She Come Out At 12.30 At Night?'': Mamata''s Shocker" [level=2] [ref=e116]':
+              - 'link "''How Did She Come Out At 12.30 At Night?'': Mamata''s Shocker" [ref=e117] [cursor=pointer]':
+                - /url: https://www.rediff.com/news/report/how-did-she-come-out-at-1230-at-night-mamatas-shocker-after-gang-rape/20251013.htm
+            - paragraph [ref=e118]:
+              - link "More news stories >" [ref=e119] [cursor=pointer]:
+                - /url: https://www.rediff.com/news
+          - generic [ref=e120]:
+            - heading "news" [level=4] [ref=e121]:
+              - link "news" [ref=e122] [cursor=pointer]:
+                - /url: https://www.rediff.com/news
+            - heading "Sergio Gor, Agrawal Talk Trade Deal" [level=5] [ref=e123]:
+              - link "Sergio Gor, Agrawal Talk Trade Deal" [ref=e124] [cursor=pointer]:
+                - /url: https://www.rediff.com/news/report/sergio-gor-agrawal-talk-trade-deal/20251013.htm
+                - img "Sergio Gor, Agrawal Talk Trade Deal" [ref=e125] [cursor=pointer]
+            - heading "Sergio Gor, Agrawal Talk Trade Deal" [level=2] [ref=e126]:
+              - link "Sergio Gor, Agrawal Talk Trade Deal" [ref=e127] [cursor=pointer]:
+                - /url: https://www.rediff.com/news/report/sergio-gor-agrawal-talk-trade-deal/20251013.htm
+            - paragraph [ref=e128]:
+              - link "More news stories >" [ref=e129] [cursor=pointer]:
+                - /url: https://www.rediff.com/news
+        - generic [ref=e130]:
+          - generic:
+            - insertion
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - heading "getahead" [level=4] [ref=e134]:
+            - link "getahead" [ref=e135] [cursor=pointer]:
+              - /url: https://www.rediff.com/getahead
+          - heading "After H-1B Trump Tightens Grip On OPT Students" [level=5] [ref=e136]:
+            - link "After H-1B Trump Tightens Grip On OPT Students" [ref=e137] [cursor=pointer]:
+              - /url: https://www.rediff.com/getahead/report/after-h-1b-trump-tightens-grip-on-opt-students/20251013.htm
+              - img "After H-1B Trump Tightens Grip On OPT Students" [ref=e138] [cursor=pointer]
+          - heading "After H-1B Trump Tightens Grip On OPT Students" [level=2] [ref=e139]:
+            - link "After H-1B Trump Tightens Grip On OPT Students" [ref=e140] [cursor=pointer]:
+              - /url: https://www.rediff.com/getahead/report/after-h-1b-trump-tightens-grip-on-opt-students/20251013.htm
+          - paragraph [ref=e141]:
+            - link "More getahead stories >" [ref=e142] [cursor=pointer]:
+              - /url: https://www.rediff.com/getahead
+        - generic [ref=e143]:
+          - heading "news" [level=4] [ref=e144]:
+            - link "news" [ref=e145] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - heading "When Zardari's Dream Of Peace With India Was Shattered" [level=5] [ref=e146]:
+            - link "When Zardari's Dream Of Peace With India Was Shattered" [ref=e147] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/when-zardaris-dream-of-peace-with-india-was-shattered/20251013.htm
+              - img "When Zardari's Dream Of Peace With India Was Shattered" [ref=e148] [cursor=pointer]
+          - heading "When Zardari's Dream Of Peace With India Was Shattered" [level=2] [ref=e149]:
+            - link "When Zardari's Dream Of Peace With India Was Shattered" [ref=e150] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/when-zardaris-dream-of-peace-with-india-was-shattered/20251013.htm
+          - paragraph [ref=e151]:
+            - link "More news stories >" [ref=e152] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e153]:
+          - heading "cricket" [level=4] [ref=e154]:
+            - link "cricket" [ref=e155] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+          - heading "Steve Smith set to lead? Cummins doubtful for Perth" [level=5] [ref=e156]:
+            - link "Steve Smith set to lead? Cummins doubtful for Perth" [ref=e157] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/steve-smith-set-to-lead-cummins-doubtful-for-perth/20251013.htm
+              - img "Steve Smith set to lead? Cummins doubtful for Perth" [ref=e158] [cursor=pointer]
+          - heading "Steve Smith set to lead? Cummins doubtful for Perth" [level=2] [ref=e159]:
+            - link "Steve Smith set to lead? Cummins doubtful for Perth" [ref=e160] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/steve-smith-set-to-lead-cummins-doubtful-for-perth/20251013.htm
+          - paragraph [ref=e161]:
+            - link "More cricket stories >" [ref=e162] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+        - generic [ref=e163]:
+          - heading "news" [level=4] [ref=e164]:
+            - link "news" [ref=e165] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - heading "Why Trump Wanted Nobel Peace Prize" [level=5] [ref=e166]:
+            - link "Why Trump Wanted Nobel Peace Prize" [ref=e167] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/column/biswajit-dasgupta-why-trump-wanted-nobel-peace-prize/20251013.htm
+              - img "Why Trump Wanted Nobel Peace Prize" [ref=e168] [cursor=pointer]
+          - heading "Why Trump Wanted Nobel Peace Prize" [level=2] [ref=e169]:
+            - link "Why Trump Wanted Nobel Peace Prize" [ref=e170] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/column/biswajit-dasgupta-why-trump-wanted-nobel-peace-prize/20251013.htm
+          - paragraph [ref=e171]:
+            - link "More news stories >" [ref=e172] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e173]:
+          - heading "news" [level=4] [ref=e174]:
+            - link "news" [ref=e175] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - heading "'As Of Now Nitish Kumar Is Our Chief Minister'" [level=5] [ref=e176]:
+            - link "'As Of Now Nitish Kumar Is Our Chief Minister'" [ref=e177] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/interview/dileep-jaiswal-as-of-now-nitish-kumar-is-our-chief-minister/20251013.htm
+              - img "'As Of Now Nitish Kumar Is Our Chief Minister'" [ref=e178] [cursor=pointer]
+          - heading "'As Of Now Nitish Kumar Is Our Chief Minister'" [level=2] [ref=e179]:
+            - link "'As Of Now Nitish Kumar Is Our Chief Minister'" [ref=e180] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/interview/dileep-jaiswal-as-of-now-nitish-kumar-is-our-chief-minister/20251013.htm
+          - paragraph [ref=e181]:
+            - link "More news stories >" [ref=e182] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e183]:
+          - heading "cricket" [level=4] [ref=e184]:
+            - link "cricket" [ref=e185] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+          - heading "Harmanpreet blames shoddy lower-order batting for loss" [level=5] [ref=e186]:
+            - link "Harmanpreet blames shoddy lower-order batting for loss" [ref=e187] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/harmanpreet-blames-shoddy-lower-order-batting-for-loss/20251013.htm
+              - img "Harmanpreet blames shoddy lower-order batting for loss" [ref=e188] [cursor=pointer]
+          - heading "Harmanpreet blames shoddy lower-order batting for loss" [level=2] [ref=e189]:
+            - link "Harmanpreet blames shoddy lower-order batting for loss" [ref=e190] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/harmanpreet-blames-shoddy-lower-order-batting-for-loss/20251013.htm
+          - paragraph [ref=e191]:
+            - link "More cricket stories >" [ref=e192] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+        - generic [ref=e193]:
+          - heading "sports" [level=4] [ref=e194]:
+            - link "sports" [ref=e195] [cursor=pointer]:
+              - /url: https://www.rediff.com/sports
+          - heading "Rajputana Royals crowned inaugural APL champions" [level=5] [ref=e196]:
+            - link "Rajputana Royals crowned inaugural APL champions" [ref=e197] [cursor=pointer]:
+              - /url: https://www.rediff.com/sports/report/rajputana-royals-crowned-inaugural-apl-champions/20251012.htm
+              - img "Rajputana Royals crowned inaugural APL champions" [ref=e198] [cursor=pointer]
+          - heading "Rajputana Royals crowned inaugural APL champions" [level=2] [ref=e199]:
+            - link "Rajputana Royals crowned inaugural APL champions" [ref=e200] [cursor=pointer]:
+              - /url: https://www.rediff.com/sports/report/rajputana-royals-crowned-inaugural-apl-champions/20251012.htm
+          - paragraph [ref=e201]:
+            - link "More sports stories >" [ref=e202] [cursor=pointer]:
+              - /url: https://www.rediff.com/sports
+        - generic [ref=e203]:
+          - heading "cricket" [level=4] [ref=e204]:
+            - link "cricket" [ref=e205] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+          - 'heading "Women''s WC PIX: Healy ton helps Aus ace record chase vs India" [level=5] [ref=e206]':
+            - 'link "Women''s WC PIX: Healy ton helps Aus ace record chase vs India" [ref=e207] [cursor=pointer]':
+              - /url: https://www.rediff.com/cricket/report/womens-wc-smriti-rawal-fifties-fire-india-to-solid-start-vs-aus/20251012.htm
+              - 'img "Women''s WC PIX: Healy ton helps Aus ace record chase vs India" [ref=e208] [cursor=pointer]'
+          - 'heading "Women''s WC PIX: Healy ton helps Aus ace record chase vs India" [level=2] [ref=e209]':
+            - 'link "Women''s WC PIX: Healy ton helps Aus ace record chase vs India" [ref=e210] [cursor=pointer]':
+              - /url: https://www.rediff.com/cricket/report/womens-wc-smriti-rawal-fifties-fire-india-to-solid-start-vs-aus/20251012.htm
+          - paragraph [ref=e211]:
+            - link "More cricket stories >" [ref=e212] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+        - generic:
+          - insertion
+        - generic [ref=e213]:
+          - heading "news" [level=4] [ref=e214]:
+            - link "news" [ref=e215] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - 'heading "Medical student''s gang rape in WB: 3 accused sent to 10-day police custody" [level=5] [ref=e216]':
+            - 'link "Medical student''s gang rape in WB: 3 accused sent to 10-day police custody" [ref=e217] [cursor=pointer]':
+              - /url: https://www.rediff.com/news/report/medical-students-gang-rape-in-bengal-3-arrested/20251012.htm
+              - 'img "Medical student''s gang rape in WB: 3 accused sent to 10-day police custody" [ref=e218] [cursor=pointer]'
+          - 'heading "Medical student''s gang rape in WB: 3 accused sent to 10-day police custody" [level=2] [ref=e219]':
+            - 'link "Medical student''s gang rape in WB: 3 accused sent to 10-day police custody" [ref=e220] [cursor=pointer]':
+              - /url: https://www.rediff.com/news/report/medical-students-gang-rape-in-bengal-3-arrested/20251012.htm
+          - paragraph [ref=e221]:
+            - link "More news stories >" [ref=e222] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e223]:
+          - heading "news" [level=4] [ref=e224]:
+            - link "news" [ref=e225] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - heading "Police, AAP workers clash at farmers' rally in Guj; 3 cops hurt" [level=5] [ref=e226]:
+            - link "Police, AAP workers clash at farmers' rally in Guj; 3 cops hurt" [ref=e227] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/police-aap-workers-clash-at-farmers-rally-in-guj-3-cops-hurt/20251012.htm
+              - img "Police, AAP workers clash at farmers' rally in Guj; 3 cops hurt" [ref=e228] [cursor=pointer]
+          - heading "Police, AAP workers clash at farmers' rally in Guj; 3 cops hurt" [level=2] [ref=e229]:
+            - link "Police, AAP workers clash at farmers' rally in Guj; 3 cops hurt" [ref=e230] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/police-aap-workers-clash-at-farmers-rally-in-guj-3-cops-hurt/20251012.htm
+          - paragraph [ref=e231]:
+            - link "More news stories >" [ref=e232] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e233]:
+          - heading "cricket" [level=4] [ref=e234]:
+            - link "cricket" [ref=e235] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+          - 'heading "India vs Windies: Was it wise to enforce follow-on?" [level=5] [ref=e236]':
+            - 'link "India vs Windies: Was it wise to enforce follow-on?" [ref=e237] [cursor=pointer]':
+              - /url: https://www.rediff.com/cricket/report/india-vs-windies-was-it-wise-to-enforce-follow-on/20251012.htm
+              - 'img "India vs Windies: Was it wise to enforce follow-on?" [ref=e238] [cursor=pointer]'
+          - 'heading "India vs Windies: Was it wise to enforce follow-on?" [level=2] [ref=e239]':
+            - 'link "India vs Windies: Was it wise to enforce follow-on?" [ref=e240] [cursor=pointer]':
+              - /url: https://www.rediff.com/cricket/report/india-vs-windies-was-it-wise-to-enforce-follow-on/20251012.htm
+          - paragraph [ref=e241]:
+            - link "More cricket stories >" [ref=e242] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+        - generic [ref=e243]:
+          - heading "news" [level=4] [ref=e244]:
+            - link "news" [ref=e245] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - 'heading "Bihar polls: BJP, JD-U to contest 101 seats each; Paswan gets 29" [level=5] [ref=e246]':
+            - 'link "Bihar polls: BJP, JD-U to contest 101 seats each; Paswan gets 29" [ref=e247] [cursor=pointer]':
+              - /url: https://www.rediff.com/news/report/bjp-jd-u-to-contest-101-seats-each-in-bihar-polls/20251012.htm
+              - 'img "Bihar polls: BJP, JD-U to contest 101 seats each; Paswan gets 29" [ref=e248] [cursor=pointer]'
+          - 'heading "Bihar polls: BJP, JD-U to contest 101 seats each; Paswan gets 29" [level=2] [ref=e249]':
+            - 'link "Bihar polls: BJP, JD-U to contest 101 seats each; Paswan gets 29" [ref=e250] [cursor=pointer]':
+              - /url: https://www.rediff.com/news/report/bjp-jd-u-to-contest-101-seats-each-in-bihar-polls/20251012.htm
+          - paragraph [ref=e251]:
+            - link "More news stories >" [ref=e252] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e253]:
+          - heading "sports" [level=4] [ref=e254]:
+            - link "sports" [ref=e255] [cursor=pointer]:
+              - /url: https://www.rediff.com/sports
+          - 'heading "PKL: Puneri Paltan hold nerve to edge Dabang Delhi" [level=5] [ref=e256]':
+            - 'link "PKL: Puneri Paltan hold nerve to edge Dabang Delhi" [ref=e257] [cursor=pointer]':
+              - /url: https://www.rediff.com/sports/report/pkl-puneri-paltan-hold-nerve-to-edge-dabang-delhi/20251012.htm
+              - 'img "PKL: Puneri Paltan hold nerve to edge Dabang Delhi" [ref=e258] [cursor=pointer]'
+          - 'heading "PKL: Puneri Paltan hold nerve to edge Dabang Delhi" [level=2] [ref=e259]':
+            - 'link "PKL: Puneri Paltan hold nerve to edge Dabang Delhi" [ref=e260] [cursor=pointer]':
+              - /url: https://www.rediff.com/sports/report/pkl-puneri-paltan-hold-nerve-to-edge-dabang-delhi/20251012.htm
+          - paragraph [ref=e261]:
+            - link "More sports stories >" [ref=e262] [cursor=pointer]:
+              - /url: https://www.rediff.com/sports
+        - generic [ref=e263]:
+          - heading "news" [level=4] [ref=e264]:
+            - link "news" [ref=e265] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - heading "Nepal ex-speaker arrested in gold smuggling case" [level=5] [ref=e266]:
+            - link "Nepal ex-speaker arrested in gold smuggling case" [ref=e267] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/nepal-ex-speaker-arrested-in-gold-smuggling-case/20251012.htm
+              - img "Nepal ex-speaker arrested in gold smuggling case" [ref=e268] [cursor=pointer]
+          - heading "Nepal ex-speaker arrested in gold smuggling case" [level=2] [ref=e269]:
+            - link "Nepal ex-speaker arrested in gold smuggling case" [ref=e270] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/nepal-ex-speaker-arrested-in-gold-smuggling-case/20251012.htm
+          - paragraph [ref=e271]:
+            - link "More news stories >" [ref=e272] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e273]:
+          - heading "cricket" [level=4] [ref=e274]:
+            - link "cricket" [ref=e275] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+          - heading "B'day girl Sutherland equals Rashid Khan's unique feat" [level=5] [ref=e276]:
+            - link "B'day girl Sutherland equals Rashid Khan's unique feat" [ref=e277] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/bday-girl-sutherland-equals-rashid-khans-unique-feat/20251012.htm
+              - img "B'day girl Sutherland equals Rashid Khan's unique feat" [ref=e278] [cursor=pointer]
+          - heading "B'day girl Sutherland equals Rashid Khan's unique feat" [level=2] [ref=e279]:
+            - link "B'day girl Sutherland equals Rashid Khan's unique feat" [ref=e280] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/bday-girl-sutherland-equals-rashid-khans-unique-feat/20251012.htm
+          - paragraph [ref=e281]:
+            - link "More cricket stories >" [ref=e282] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+        - generic [ref=e283]:
+          - heading "news" [level=4] [ref=e284]:
+            - link "news" [ref=e285] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - 'heading "IPS officer''s suicide: Haryana govt given 48-hr ultimatum to remove DGP" [level=5] [ref=e286]':
+            - 'link "IPS officer''s suicide: Haryana govt given 48-hr ultimatum to remove DGP" [ref=e287] [cursor=pointer]':
+              - /url: https://www.rediff.com/news/report/ips-officers-suicide-haryana-govt-given-48-hr-ultimatum-to-remove-dgp/20251012.htm
+              - 'img "IPS officer''s suicide: Haryana govt given 48-hr ultimatum to remove DGP" [ref=e288] [cursor=pointer]'
+          - 'heading "IPS officer''s suicide: Haryana govt given 48-hr ultimatum to remove DGP" [level=2] [ref=e289]':
+            - 'link "IPS officer''s suicide: Haryana govt given 48-hr ultimatum to remove DGP" [ref=e290] [cursor=pointer]':
+              - /url: https://www.rediff.com/news/report/ips-officers-suicide-haryana-govt-given-48-hr-ultimatum-to-remove-dgp/20251012.htm
+          - paragraph [ref=e291]:
+            - link "More news stories >" [ref=e292] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e293]:
+          - heading "news" [level=4] [ref=e294]:
+            - link "news" [ref=e295] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+          - heading "Man with DU MPhil held for jewellery shop heists in Delhi" [level=5] [ref=e296]:
+            - link "Man with DU MPhil held for jewellery shop heists in Delhi" [ref=e297] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/man-with-du-mphil-held-for-jewellery-shop-heists-in-delhi/20251012.htm
+              - img "Man with DU MPhil held for jewellery shop heists in Delhi" [ref=e298] [cursor=pointer]
+          - heading "Man with DU MPhil held for jewellery shop heists in Delhi" [level=2] [ref=e299]:
+            - link "Man with DU MPhil held for jewellery shop heists in Delhi" [ref=e300] [cursor=pointer]:
+              - /url: https://www.rediff.com/news/report/man-with-du-mphil-held-for-jewellery-shop-heists-in-delhi/20251012.htm
+          - paragraph [ref=e301]:
+            - link "More news stories >" [ref=e302] [cursor=pointer]:
+              - /url: https://www.rediff.com/news
+        - generic [ref=e303]:
+          - heading "business" [level=4] [ref=e304]:
+            - link "business" [ref=e305] [cursor=pointer]:
+              - /url: https://www.rediff.com/business
+          - heading "ED offers Flipkart to close FEMA violation case by paying penalty" [level=5] [ref=e306]:
+            - link "ED offers Flipkart to close FEMA violation case by paying penalty" [ref=e307] [cursor=pointer]:
+              - /url: https://www.rediff.com/business/report/ed-offers-flipkart-to-close-fema-violation-case-by-paying-penalty/20251012.htm
+              - img "ED offers Flipkart to close FEMA violation case by paying penalty" [ref=e308] [cursor=pointer]
+          - heading "ED offers Flipkart to close FEMA violation case by paying penalty" [level=2] [ref=e309]:
+            - link "ED offers Flipkart to close FEMA violation case by paying penalty" [ref=e310] [cursor=pointer]:
+              - /url: https://www.rediff.com/business/report/ed-offers-flipkart-to-close-fema-violation-case-by-paying-penalty/20251012.htm
+          - paragraph [ref=e311]:
+            - link "More business stories >" [ref=e312] [cursor=pointer]:
+              - /url: https://www.rediff.com/business
+        - generic [ref=e313]:
+          - heading "cricket" [level=4] [ref=e314]:
+            - link "cricket" [ref=e315] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+          - heading "Pak fans celebrate skipper Masood's dismissal! Reason?" [level=5] [ref=e316]:
+            - link "Pak fans celebrate skipper Masood's dismissal! Reason?" [ref=e317] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/pak-fans-celebrate-skipper-masoods-dismissal-reason/20251012.htm
+              - img "Pak fans celebrate skipper Masood's dismissal! Reason?" [ref=e318] [cursor=pointer]
+          - heading "Pak fans celebrate skipper Masood's dismissal! Reason?" [level=2] [ref=e319]:
+            - link "Pak fans celebrate skipper Masood's dismissal! Reason?" [ref=e320] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket/report/pak-fans-celebrate-skipper-masoods-dismissal-reason/20251012.htm
+          - paragraph [ref=e321]:
+            - link "More cricket stories >" [ref=e322] [cursor=pointer]:
+              - /url: https://www.rediff.com/cricket
+        - insertion [ref=e324]:
+          - link [ref=e325] [cursor=pointer]:
+            - /url: ""
+    - generic [ref=e326]:
+      - text: © 2025 Rediff.com India Limited. All rights reserved. |
+      - link "Disclaimer" [ref=e327] [cursor=pointer]:
+        - /url: http://in.rediff.com/disclaim.htm
+      - text: "|"
+      - link "Privacy Policy" [ref=e328] [cursor=pointer]:
+        - /url: http://www.rediff.com/w3c/policy.html
+```

@@ -1,0 +1,18 @@
+[
+    {
+        "email": "sunilpawar1506@outlook.com",
+        "password": "Hawks@1234",
+        "productToBuy": "ADIDAS ORIGINAL",
+        "baseURL": "https://rahulshettyacademy.com/client/",
+        "countryName": "India",
+        "countryCode": "ind"
+    },
+    {
+        "email": "sunilpawar2604@outlook.com",
+        "password": "Tester@1234",
+        "productToBuy": "iphone 13 pro",
+        "baseURL": "https://rahulshettyacademy.com/client/",
+        "countryName": "Cuba",
+        "countryCode": "cub"
+    }
+]
