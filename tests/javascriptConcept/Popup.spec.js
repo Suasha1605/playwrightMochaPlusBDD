@@ -18,5 +18,8 @@ test('Popup handling', async ({ browser }) => {
   await page.locator('button#confirmbtn').click();
 
 
+  const [newPage] = await Promise.all([context.waitForEvent('page'), link.click()])
+
+
 
 });

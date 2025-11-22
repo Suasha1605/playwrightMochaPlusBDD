@@ -5,7 +5,9 @@ test('Playwright locators', async ({page})=>{
 
 await page.goto("https://rahulshettyacademy.com/angularpractice/");
 
-expect(await page.screenshot()).toMatchSnapshot('angularpractice_Homepage.png');
+// expect(await page.screenshot()).toMatchSnapshot('angularpractice_Homepage.png');
+
+await expect(page).toHaveScreenshot('Homepage.png')
 await page.waitForLoadState('networkidle');
 page.on('request', resquest=>{console.log(resquest.url())});
 page.on('response', Response=>{console.log(Response.url(), Response.status())});

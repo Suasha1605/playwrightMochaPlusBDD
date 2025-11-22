@@ -54,6 +54,30 @@ test('Create Method Ext Json file', async ({ request }) => {
 
 
 
+test('Post method',async ({request})=>{
+
+ const response=await request.post(`${baseURL}/demo/api`,
+
+    {data:JSON.parse(fs.readFileSync('./testdata/bookingAPI.json','utf-8')),
+        headers:{"content-type":'application/json','cookie':`token=${token}`},
+    }
+ )
+
+ const respBody = await response.json();
+
+ expect(response.status()).toBe(200);
+
+ expect(respBody.booking.bookingId).toHaveProperty('bookingId');
+
+ expect(respBody).toMatchObject({
+
+    checkin:requestBody.bookingdates.checkin
+ })
+
+})
+
+
+
 
 
 

@@ -35,7 +35,11 @@ test.describe('CRUD Operations for Booking API', () => {
 
 
         const response = await request.post(`${baseURL}/booking`,
-            { data: requestBody, headers: { 'Content-Type': 'application/json', 'cookie': 'token=83fbc54722b6f81' } }
+            { data: requestBody, 
+                headers: { 'Content-Type': 'application/json',
+                            'cookie': 'token=83fbc54722b6f81'
+                        } 
+            }
 
         );
 
@@ -77,7 +81,7 @@ test.describe('CRUD Operations for Booking API', () => {
 
 
 
-    test.only('Get method by ID', async ({ request }) => {
+    test('Get method by ID', async ({ request }) => {
 
         const response = await request.get(`${baseURL}/booking/1`);
 

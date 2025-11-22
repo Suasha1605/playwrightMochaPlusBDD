@@ -30,7 +30,9 @@ hrmLoginTest('Browser Launch with session storage', async ({ HRMLoginCred }) => 
     await page.waitForLoadState('networkidle');
     console.log(await page.title());
 
+  await context.storageState({path:'session.json'});
 
+  const webcontext = await browser.newContext({storageState:'session.json'});
 
 
 })

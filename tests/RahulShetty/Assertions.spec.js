@@ -51,7 +51,7 @@ test('Mouse Actions', async ({ page }) => {
 
 });
 
-test.only('Mouse double click', async ({ page }) => {
+test('Mouse double click', async ({ page }) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/');
 

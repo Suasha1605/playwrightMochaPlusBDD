@@ -20,7 +20,8 @@
     "@types/node": "^22.10.2",
     "ajv": "^8.17.1",
     "allure-playwright": "^3.3.3",
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "dotenv": "^17.2.2"

@@ -52,7 +52,7 @@ test.describe('Playwright browser actions', () => {
         const page = await context.newPage();
         await page.goto("https://testautomationpractice.blogspot.com/");
 
-        const newTab = page.getByRole('button').filter({ hasText: 'New Tab' });
+        const newTab = page.getByRole('button').filter({hasText: 'New Tab' });
 
         const [newPage] = await Promise.all([context.waitForEvent('page'), newTab.click()]);
 
