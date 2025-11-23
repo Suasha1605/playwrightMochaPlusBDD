@@ -1,9 +1,0 @@
-Title: Selenium
-Title: Fast and reliable end-to-end testing for modern web apps | Playwright
-titleName [
-  '\nHome\n',
-  '\nUdemy Courses\n',
-  '\nOnline Trainings\n',
-  '\nBlog\n',
-  '\nPlaywrightPractice\n'
-]

@@ -1,5 +1,0 @@
-Total cities =445
-First item =Ahmedabad
-Last item =Other International Location(s)
----------------------------------------------------------
-Delhi  exists

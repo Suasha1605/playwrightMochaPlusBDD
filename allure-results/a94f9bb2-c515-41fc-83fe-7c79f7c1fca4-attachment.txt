@@ -1,2 +1,0 @@
-dialogType :  alert
-alertMsg :  Hello , share this practice page and share your knowledge
