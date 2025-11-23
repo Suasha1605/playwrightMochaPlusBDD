@@ -1,4 +1,4 @@
-const { base } = require('@faker-js/faker');
+// const { base } = require('@faker-js/faker');
 const { test, expect } = require('@playwright/test');
 const fs = require('fs');
 

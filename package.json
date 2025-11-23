@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test-regression": "npx playwright test",
-    "test-pom": "npx playwright test /RahulShetty",
-    "test-Amazon": "npx playwright test /Amazon",
+    "test-regression": "npx playwright test --grep @regression",
+    "test-sanity": "npx playwright test --grep @sanity",
+    "test-pom": "npx playwright test /RahulShetty/shoppingCartPO.spec.js",
+    "test-Amazon/group": "npx playwright test /Amazon/group",
     "test-WebApi": "npx playwright test /RahulShetty/WebApi.spec.js --headed",
     "test-smoke": "npx playwright test --grep @smoke",
     "cucumber-regression": "npx cucumber-js --parallel 2 --retry 1 --exit --format html:cucumber-report.html"
